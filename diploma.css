@@ -1,0 +1,73 @@
+.main-diploma{
+  max-width: 55rem;
+  margin: -1% 15%;
+  
+}
+.diplomainfo{
+  text-align: center;
+  font-size: 39px;
+  font-family: "Noto Sans","Helvetica ";
+  font-weight:bold;
+  overflow-wrap: break-word;
+  margin: 5rem -8rem;
+  width: 65rem;
+}
+.inneedTeam{
+margin-top: -3rem;
+}
+.about-diploma{
+  margin-top: 48px;
+  width: 40rem;
+  font-size: 19px;
+  font-weight: 323;
+}
+.intro-diploma{
+  font-size: 34px;
+  font-family: "Noto Sans","Helvetica ";
+  font-weight:bold;
+  color: rgb(32, 30, 30);
+  overflow-wrap: break-word;
+  margin: 8rem 0rem;
+  width: 65rem;
+  margin-top: 2rem;
+}
+.reference{
+  margin-top:-6rem;
+}
+.diploma-information{
+  font-size: 34px;
+  font-family: "Noto Sans","Helvetica ";
+  font-weight:bold;
+  color: rgb(32, 30, 30);
+  overflow-wrap: break-word;
+  margin: 8rem 0rem;
+  width: 65rem;
+  margin-top: 2rem;
+}
+.defination-diploma{
+  margin-top: 1rem;
+  width: 40rem;
+  font-size: 19px;
+  font-weight: 323;
+  
+}
+.diploma-level{
+  font-size: 34px;
+  font-family: "Noto Sans","Helvetica ";
+  font-weight:bold;
+  color: rgb(32, 30, 30);
+  overflow-wrap: break-word;
+  margin: 8rem 0rem;
+  width: 65rem;
+  margin-top: -6rem;
+}
+.carrior-oppertunities{
+  font-size: 34px;
+  font-family: "Noto Sans","Helvetica ";
+  font-weight:bold;
+  color: rgb(32, 30, 30);
+  overflow-wrap: break-word;
+  margin: 8rem 0rem;
+  width: 65rem;
+  margin-top: 6rem;
+}

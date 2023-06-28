@@ -1,0 +1,81 @@
+
+.OAEC-programs{
+  font-size: 36px;
+  margin: 4rem 2rem;
+}
+
+.list-programs {
+  display: flex;
+  margin:2rem  6rem ;
+}
+.list-programs li{
+  padding-right: 4rem;
+  list-style-type: none;
+}
+.civil-contents{
+  margin:4rem 3rem;
+}
+.text-civil{
+  width: 28rem;
+  font-size: 16px;
+  margin: 1rem 2rem;
+
+}
+.civil-work-heading{
+  font-size: 23px;
+  padding: 2rem 2rem;
+  font-weight: 2234;
+}
+.civil-work-describe{
+    width: 28rem;
+    font-size: 16px;
+    margin: -1rem 2rem;
+
+}
+.civil-work-servey{
+  font-size: 23px;
+  padding: 2rem 5rem;
+  font-weight: 2234;
+}
+.computer-career-prospects{
+  font-size: 23px;
+  margin: 1rem 5rem;
+  font-weight: 2234;
+}
+.side-content{
+  position: absolute;
+  top: 16rem;
+  left: 46rem;
+}
+.side-head-content{
+  font-size:25px;
+  color: rgb(14, 14, 80);
+  padding-bottom: 2rem;
+
+}
+.computer-contents{
+  margin:4rem 3rem;
+}
+
+.text-computer{
+  width: 28rem;
+  font-size: 16px;
+  margin: 1rem 5rem;
+
+}
+.computer-work-heading{
+  font-size: 23px;
+  padding: 2rem 2rem;
+  font-weight: 2234;
+}
+.computer-work-describe{
+    width: 28rem;
+    font-size: 16px;
+    margin: -1rem 2rem;
+
+}
+.computer-career-prospects{
+  font-size: 23px;
+  margin: 1rem 5rem;
+  font-weight: 2234;
+}

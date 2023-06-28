@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <title>Programmes page</title>
+   <link rel="stylesheet" href="programmes.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+      </script>
+   <script>
+      $(function () {
+         $("#header").load("header.html");
+         $("#footer").load("footer.html");
+      });
+   
+      function show_cvl(){
+      let faculty_cvl = document.getElementById("btn_cvl").value;
+      if(faculty_cvl === "Civil Engineer"){
+         document.getElementById("container").style.display = "block";
+      }
+      document.getElementById("holder").style.display = "none";
+      }
+      function show_cmp(){
+      let   faculty_cmp = document.getElementById("btn_cmp").value;
+      if(faculty_cmp === "Computer Engineer"){
+         document.getElementById("holder").style.display = "block";
+      }
+      document.getElementById("container").style.display = "none";
+      }
+
+   </script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div id="header"></div>
+
+   
+
+   <div class="OAEC-programs">
+      Special College Programs
+      <hr style="width:35rem;margin-top:3rem;opacity:0.3;">
+   </div>
+   <div class="list-programs">
+      <li><button onclick="show_cvl()" id="btn_cvl" value="Civil Engineer"
+            style="height: 2.5rem;width:7rem;background-color:rgb(19, 67, 83);border-radius: 23px;color: white;cursor: pointer;">Civil
+            Engineer</button></li>
+      <li><button onclick="show_cmp()" id="btn_cmp" value="Computer Engineer"
+            style="height: 2.5rem;width:9rem;background-color:rgb(19, 67, 83);border-radius: 23px;color: white;cursor: pointer;">Computer
+            Engineer</button></li>
+   </div>
+
+<!-- CivilCONTENTS STARTED -->
+   <div class="civil-info" name="civil-contents" id="container">
+
+      <div class="civil-contents" name="civil-container">
+         <h2 style="text-decoration:underline;font-weight:light;font-family:Verdana;">Civil Engineer</h2>
+         <img src="images/civil-engineer.jpg" style="  width: 31rem;border-radius: 2rem;margin-top: 2rem;">
+         <div class="text-civil">
+            Civil engineering is a professional engineering discipline that deals with the design, construction, and
+            maintenance of the physical and naturally built environment, including works like roads, bridges, canals,
+            dams, and buildings.<br><br>
+            Civil engineering is considered a pioneer subject in the field of engineering. Civil Engineers—in one form
+            or another—have been around ever since humans started building major public structures such as roads,
+            bridges, tunnels and large public buildings. The discipline includes the planning, design, construction,
+            maintenance and operation of infrastructures that surround us, and which underpin our society. Civil
+            engineering branches into environmental engineering, Geo technical engineering, structural engineering,
+            transportation engineering, municipal or urban engineering,
+            water resource engineering, materials engineering, coastal engineering, surveying and construction
+            engineering, among others.
+         </div>
+         <div class="civil-work">
+            <section class="civil-work-heading">What Civil Engineers Do?</section>
+            <div class="civil-work-describe">
+
+
+               Civil engineers design, construct, supervise, operate, and maintain large construction projects and
+               systems, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and
+               sewage treatment. Many civil engineers work in design, construction, research, and education.
+            </div>
+         </div>
+      </div>
+
+      <div class="civil-servey">
+         <section class="civil-work-servey">Civil Students Survey</section>
+         <img src="images/civil_engi.jpg" style="margin-left:5rem;width: 27rem;height: 12rem;border-radius: 1rem;">
+      </div>
+
+   </div>
+
+   <!-- COMPUTER CONTENTS STARTED -->
+
+   <div class="computer-info" name="computer-contents" id="holder" style="display:none;">
+
+
+      <div class="computer-contents" name="computer-container">
+         <h2 style="text-decoration:underline;font-weight:light;font-family:Verdana;">Computer Engineer</h2>
+         <img src="images/computer.jpg" style="  width: 31rem;border-radius: 2rem;margin-top: 2rem;">
+         <div class="text-civil">
+            The Department Computer Engineering at Oxford Advanced Engineering College has been offering Diploma
+            Programs in Computer Engineering. We aim to bring out competent and qualified computer engineers to meet
+            national aspirations and goals.<br><br>
+            Civil engineering is considered a pioneer subject in the field of engineering. Civil Engineers—in one form
+            or another—have been around ever since humans started building major public structures such as roads,
+            bridges, tunnels and large public buildings. The discipline includes the planning, design, construction,
+            maintenance and operation of infrastructures that surround us, and which underpin our society. Civil
+            engineering branches into environmental engineering, Geo technical engineering, structural engineering,
+            transportation engineering, municipal or urban engineering,
+            water resource engineering, materials engineering, coastal engineering, surveying and construction
+            engineering, among others.
+         </div>
+         <div class="computer-work">
+            <section class="computer-work-heading">What is Computer Engineering?</section>
+            <div class="computer-work-describe">
+               computer_engineering Computer engineering exists at the intersection of technology and innovation. A
+               dynamic professional field, computer engineering offers varied career paths in both hardware engineering
+               (e.g. microprocessors) and software development—each which drive computing advances in industries ranging
+               from aerospace to healthcare. The following guide provides a high-level overview of computer engineering,
+               including a look at different career paths, related skills and technologies, earning potential and
+               employment outlook.
+
+            </div>
+         </div>
+      </div>
+
+      <div class="computer-carrior">
+         <section class="computer-career-prospects">Career Prospects</section>
+         <div class="text-computer">
+            Computer engineering blends together computer science and electrical engineering to further advancements in
+            digital technology, computer networking and computer systems. In turn, computer engineers use their
+            extensive knowledge of hardware and software design and computer programming to make computing platforms and
+            applications more efficient and effective. Seamlessly integrating the latest innovations, computer engineers
+            develop new computer hardware, design and implement software applications, and enhance the capabilities of
+            networks and communications systems.
+            water resource engineering, materials engineering, coastal engineering, surveying and construction
+            engineering, among others.
+         </div>
+      </div>
+      <div class="computer-for-you">
+         <section class="computer-career-prospects">Is Computer Engineering for You?</section>
+         <div class="text-computer">
+            Students who wish to pursue a career in this field must have a strong background and understanding of
+            mathematics and science. If a student excels in these subjects, computer engineering will most likely be a
+            comfortable fit for them. Computer engineers must also possess strong detail orientation, teamwork, and
+            analytical skills. Good communication skills are also needed, because computer engineers often need to go
+            outside the lab to deal with customers, and other professionals.
+         </div>
+      </div>
+   </div>
+
+   <div class="side-content">
+      <section class="side-head-content">Colleges offer flexible programs that allow you to tailor your education to fit
+         your needs. Here's a sample of these programs.</section>
+      <div class="accelerate-program">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;"> Accelerated Program </div>
+         <section style="margin-top:1rem;">Earn your bachelor's degree quickly to get a head start on your career.
+            Usually, this involves attending summer classes or carrying extra courses during the regular academic year.
+         </section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;"> Cooperative Education</div>
+         <section style="margin-top:1rem;">Alternate between semesters of full-time study and related paid full-time
+            work. Earning a bachelor's degree under this plan might take longer, but you’ll gain practical work
+            experience.</section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;">Distance Learning</div>
+         <section style="margin-top:1rem;">Take courses for credit without being physically in the classroom. Today,
+            this usually means taking classes online.</section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;">Independent Study</div>
+         <section style="margin-top:1rem;">Complete part of your college program by studying on your own instead of
+            attending scheduled classes and completing group assignments.</section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;">Internship</div>
+         <section style="margin-top:1rem;">Participate in a short-term, supervised work experience, usually related to
+            your major, that earns you academic credit. Internships may be paid or unpaid and may take place on or off
+            campus.</section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;">Honors Program</div>
+         <section style="margin-top:1rem;">Enter the honors program for special learning opportunities, such as
+            educational enrichment, independent study, acceleration, or a combination.</section>
+      </div>
+      <div style="padding-top:1rem;">
+         <div style="font-size:26px;font-weight: 199;padding-top: 1rem;">OAEC Education</div>
+         <section style="margin-top:1rem;">We will provide all the essential knowledge for you . We will make every
+            students capable of doing works at the real field. </section>
+      </div>
+   </div>
+   <div id="footer"></div>
+
+</body>
+
+</html>
