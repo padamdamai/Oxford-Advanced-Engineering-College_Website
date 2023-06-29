@@ -2,7 +2,7 @@
 
 .left_contents{
   position: relative;
-top: 14rem;
+top: 25rem;
 margin-left: 3rem;
 font-size: 23px;
 width: 29%;
@@ -24,4 +24,7 @@ width: 29%;
 .taking-entrance{
   font-size: 65px;
   font-weight: bold;
+}
+.entrance_result{
+  padding-top:10px;
 }
