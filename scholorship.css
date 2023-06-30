@@ -1,3 +1,6 @@
+.nav-down{
+  height:26rem;
+}
 .content_bg{
   height:10%;
   width:100%;
@@ -6,8 +9,8 @@
 }
 .scholorship_content{
   width: 31rem;
-  height: 34rem;
-  background: white;
+  height: 15rem;
+  background:white;
   position: relative;
   top: -10rem;
   left: 9rem;
@@ -21,11 +24,26 @@
   height: 19rem;
   background: white;
   position: relative;
-  top: -47rem;
+  top: -29rem;
   left: 54rem;
   padding: 62px;
 
 }
 .criateria_scholorship{
   margin-top:0px; 
+}
+.scholorship_std{
+display: flex;
+flex-direction: row;
+max-width:314rem;
+flex-wrap: wrap;
+justify-content: center;
+padding-top:2rem;
+}
+.card1 ,.card2, .card3, .card4,.card5,.card6 {
+
+  width: 20rem;
+  height: 13rem;
+  margin: 1rem;
+  padding-top:5rem;
 }
