@@ -25,7 +25,7 @@ margin-top: 3rem;
   flex-direction:row;
   max-width: 71rem;
   flex-wrap: wrap;
-margin:-6rem 8rem;
+margin:-6rem 8rem 13rem;
 }
 .shubash_job , .niraj_job , .sunil_job , .kriti_job {
   width: 14rem;
@@ -41,6 +41,21 @@ border-radius: 2rem;
   width: 8rem;
   background: white;
   border-radius: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 15px;
 }
+.job_list{
+  margin:9rem 27rem;
+}
+.job_container{
+  display: flex;
+  flex-direction:row;
+  width: 52rem;
+  margin: 4rem -4rem;
+
+}
+.com_jobs ,.cvl_jobs{
+  width:44rem;
+  height:auto;
+}
+
