@@ -9,3 +9,22 @@ margin: 5rem 26rem;
   color:rgb(53, 53, 145);
   text-align: center;
 }
+.check_result{
+  margin:1rem 9rem;
+}
+.fom{
+  padding:2rem 2rem;
+  width: 65rem;
+}
+.submit{
+  margin: 2rem 26rem;
+  width: 9rem;
+  height: 2.5rem;
+  background: #83cc83;
+  border-radius: 1rem;
+  box-shadow:4px 7px rgb(49, 45, 45)
+}
+.button_1{
+  height: 3rem;
+  margin: 1rem 12px ;
+}
