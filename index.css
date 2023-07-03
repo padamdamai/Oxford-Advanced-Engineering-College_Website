@@ -95,7 +95,7 @@ left: 41px;
   
   /* admission dropdown contents */
   
-  .dropbtn-admission{
+  /* .dropbtn-admission{
     background-color:black;
     color: white;
     width: 123px;
@@ -137,15 +137,15 @@ left: 41px;
     display: block;
     padding:2px;
   } 
-  .about-icon{
-  margin-top: -16px;
-  margin-left: 50px;
-  }
-  .admission-icon{
+    .admission-icon{
     margin-top: -15px;
     margin-left: 81px;
     
-    }
+    } */
+    .about-icon{
+      margin-top: -16px;
+      margin-left: 50px;
+      }
   
 .nav{
 background-image: url(images/anniversery.jpg);
