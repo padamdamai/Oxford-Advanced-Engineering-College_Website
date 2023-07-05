@@ -28,9 +28,130 @@ margin: 5rem 26rem;
   height: 3rem;
   margin: 1rem 12px ;
 }
-.error-message{
+#error-message{
    color: red;
   position: relative;
   left: -12rem;
   top: 30px;
+}
+/* first name */
+#error_f_name{
+  color: red;
+  display: block;
+  margin: -2.7rem 15rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_f_name{
+  color:green;
+  display: block;
+  margin: -2.7rem 15rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+
+/* middle_name */
+#error_m_name{
+  color: red;
+  display: block;
+  margin: -2.7rem 37rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_m_name{
+  color:green;
+  display: block;
+  margin: -2.7rem 37rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* last name */
+#error_l_name{
+  color: red;
+  display: block;
+  margin: -2.7rem 58rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_l_name{
+  color:green;
+  display: block;
+  margin: -2.7rem 58rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* father name */
+#error_father_name{
+  color: red;
+  display: block;
+  margin: -2.9rem 16rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_father_name{
+  color:green;
+  display: block;
+  margin: -2.9rem 16rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* mother name */
+#error_mother_name{
+  color: red;
+  display: block;
+  margin: -2.9rem 37rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_mother_name{
+  color:green;
+  display: block;
+  margin: -2.9rem 37rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* temporatu address */
+#error_tem_address{
+  color: red;
+  display: block;
+  margin: -2.7rem  61.59rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_tem_address{
+  color:green;
+  display: block;
+  margin: -2.7rem  61.59rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* permanent address */
+#error_perm_address{
+  color: red;
+  display: block;
+  margin: -2.7rem 20.44rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_perm_address{
+  color:green;
+  display: block;
+  margin: -2.7rem 20.44rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* Date of birth */
+#error_DOB{
+  color: red;
+  display: block;
+  margin: -2.7rem 42rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+#correct_DOB{
+  color:green;
+  display: block;
+  margin: -2.7rem 42rem ;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
 }
