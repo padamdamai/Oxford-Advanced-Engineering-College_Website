@@ -40,118 +40,187 @@ margin: 5rem 26rem;
   display: block;
   margin: -2.7rem 15rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_f_name{
-  color:green;
-  display: block;
-  margin: -2.7rem 15rem;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
-
 /* middle_name */
 #error_m_name{
   color: red;
   display: block;
   margin: -2.7rem 37rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_m_name{
-  color:green;
-  display: block;
-  margin: -2.7rem 37rem;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* last name */
 #error_l_name{
   color: red;
   display: block;
   margin: -2.7rem 58rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_l_name{
-  color:green;
-  display: block;
-  margin: -2.7rem 58rem ;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* father name */
 #error_father_name{
   color: red;
   display: block;
   margin: -2.9rem 16rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_father_name{
-  color:green;
-  display: block;
-  margin: -2.9rem 16rem ;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* mother name */
 #error_mother_name{
   color: red;
   display: block;
   margin: -2.9rem 37rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_mother_name{
-  color:green;
-  display: block;
-  margin: -2.9rem 37rem ;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* temporatu address */
 #error_tem_address{
   color: red;
   display: block;
   margin: -2.7rem  61.59rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_tem_address{
-  color:green;
-  display: block;
-  margin: -2.7rem  61.59rem ;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* permanent address */
 #error_perm_address{
   color: red;
   display: block;
   margin: -2.7rem 20.44rem;
   position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-#correct_perm_address{
-  color:green;
-  display: block;
-  margin: -2.7rem 20.44rem ;
-  position:absolute;
-  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-}
+
 /* Date of birth */
 #error_DOB{
   color: red;
   display: block;
   margin: -2.7rem 42rem;
   position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+
+/* cpy */
+/* .error_dob {
+  position: relative;
+}
+
+.error_dob::after {
+  right: -18px;
+ 
+}
+
+input:invalid + .error_dob::after {
+  content: "✖";
+  color:red;
   filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
 }
-#correct_DOB{
+
+input:valid + .error_dob::after {
+  content: "✔️";
   color:green;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+} */
+
+
+/* faculty name*/
+#error_faculty{
+  color: red;
   display: block;
-  margin: -2.7rem 42rem ;
+  margin: -1.3rem 30.7rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+
+/* gender name*/
+#error_gender{
+  color: red;
+  display: block;
+  margin:-1.3rem 8.5rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+
+/* your_phone_no*/
+#error_phone_no{
+  color: red;
+  display: block;
+  margin:-1.3rem 19.6rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+
+/* email*/
+#error_email{
+  color: red;
+  display: block;
+  margin:-1.3rem 30.1rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* parents phone no */
+#error_parents_phone_no{
+  color: red;
+  display: block;
+  margin:-1.3rem 10.2rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* #error_gpa{
+  color: red;
+  display: block;
+  margin:-1.3rem 20.6rem;
   position:absolute;
   filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+} */
+
+/* school type  */
+#error_school{
+  color: red;
+  display: block;
+  margin:-1.3rem 30.9rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* slc marksheet */
+#error_file_slc_marksheet{
+  color: red;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* slc character certificates */
+#error_file_slc_character_certificates{
+  color: red;
+  display: block;
+  margin:-1.3rem 28.9rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* passport size photo */
+#error_pass_size_photo{
+  color: red;
+  display: block;
+  margin:-1.3rem 12.9rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
+}
+/* previous school */
+#error_previous_school{
+  color: red;
+  display: block;
+  margin:-1.3rem 28.9rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
+}
+/* online payment */
+#error_payment_online{
+  color: red;
+  display: block;
+  margin:-1.3rem 28.9rem;
+  position:absolute;
+  filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }

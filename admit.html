@@ -34,7 +34,7 @@
 
          <label>Middle Name:<input type="text" id="middle_name"
                style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;"
-               placeholder="middle_name"></label> <span id="error_handling_middle_name"></span>
+               placeholder="middle_name" required></label> <span id="error_handling_middle_name"></span>
 
          <label>Last Name:<input type="text" id="last_name"
                style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="Last_name"
@@ -59,62 +59,83 @@
 
          <label style="margin-left:-1rem;">Date-of-Birth:<input type="date" id="dob"
                style="width: 148px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="f_name"
-               required></label><span id="error_dob"></span>
+               required pattern="\d{4}-\d{2}-\d{2}"></label><span id="error_dob"></span>
+
+               <!-- <label>
+                  Enter your birthday:
+                  <input type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}" />
+                  <span class="error_dob"></span>
+                </label>
+                <p> -->
 
          <label>Faculty:</label>
-         <select name="cars" id="cars"
-            style="width:183px;height:40px;text-align:center;margin-left:1rem;background:white;">
-            <option value="volvo">Civil</option>
-            <option value="saab">Computer</option>
-         </select><br>
-         <!-- 
+         <select name="facultties" id="Faculty_name"
+            style="width:183px;height:40px;text-align:center;margin-left:1rem;background:white;" >
+            <option style="display:none;"></option>
+            <option value="Civil">Civil</option>
+            <option value="Computer">Computer</option>
+         </select><br><span id="error_faculty"></span>
+ 
 
          <label>Gender:</label>
-         <select name="cars" id="cars"
+         <select name="Gender" id="gender"
             style="width:183px;height:40px;text-align:center;margin-left:1rem;background:white;">
+            <option style="display:none;"></option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
-         </select>
-         <label style="margin-left:2rem;">Phone-no</label>:<input type="phone"
+         </select><span id="error_gender"></span>
+
+               
+         <label style="margin-left:4.2rem;">Your Phone-no</label>:<input type="phone" id="phone_no"
             style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="phone_no"
-            required></label>
-         <label style="margin-left:2rem;">G-mail:<input type="email"
-               style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="gmail"
-               required></label><br>
-         <label>Phone-no</label>:<input type="phone"
+            required></label><span id="error_phone_no"></span>
+
+         <label style="margin-left:2rem;">G-mail:<input type="email" id="email"
+               style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="gmail" required></label><br><span id="error_email"></span>
+              
+         <label>Phone-no (parents)</label>:<input type="phone" id="parents_phone_no"
             style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="phone_no"
-            required></label>
-         <label style="margin-left:-1rem;"> Class ten G.P.A:<input type="email"
+            required></label><span id="error_parents_phone_no"></span>
+
+
+         <label style="margin-left:-1rem;"> Class ten G.P.A:<input type="email" id="gpa"
                style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="G.P.A"
-               required></label>
+               required></label><span id="error_gpa"></span>
+
+             
          <label style="margin-left:-1rem;"> School type:</label>
-         <select name="cars" id="cars"
-            style="width:242px;height:40px;text-align:center;margin-left:1rem;background:white;">
+         <select name="school_type" id="school"
+            style="width:145px;height:40px;text-align:center;margin-left:1rem;background:white;">
+            <option style="display:none;"></option>
             <option value="Private">Private</option>
             <option value="government">Government</option>
-         </select>
+         </select></label><span id="error_school"></span><br>
 
-         <label style="margin-left:0rem;">SLC marksheet photo:<button class="button_1"><input type="file"
+
+         <label style="margin-left:0rem;">SLC marksheet photo:<button class="button_1"><input type="file" id="file_slc_marksheet"
                   style="width: 171px;height: 33px;text-align:center;margin: 1rem 2rem 1rem 1rem;"
-                  required></button></label>
-         <label style="margin-left:2rem;">SLC Character certiicates:<button class="button_1"><input type="file"
+                  required></button></label><span id="error_file_slc_marksheet"></span>
+         <label style="margin-left:2rem;">SLC Character certiicates:<button class="button_1"><input type="file" id="file_slc_character_certificates"
                   style="width: 171px;height: 33px;text-align:center;margin: 1rem 2rem 1rem 1rem;"
-                  required></button></label><br>
-         <label style="margin-left:0rem;">Password-size-photo:<button class="button_1"><input type="file"
+                  required></button></label><br><span id="error_file_slc_character_certificates"></span>
+                     
+         <label style="margin-left:0rem;">Password-size-photo:<button class="button_1"><input type="file" id="pass_size_photo"
                   style="width: 171px;height: 33px;text-align:center;margin: 1rem 2rem 1rem 1rem;"
-                  required></button></label>
-         <label style="margin-left:2rem;">Passed School Name:<input type="email"
+                  required></button></label><span id="error_pass_size_photo"></span>
+         <label style="margin-left:2rem;">Passed School Name:<input type="text"  id="previous_school"
                style="width: 271px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;"
-               placeholder="passed_school" required></label>
+               placeholder="passed_school" required></label><span id="error_previous_school"></span>
          <br>
+           
          <label style="margin-left:0rem;">Payment:</label>
-         <select name="payment" id="media"
+         <select name="payment" id="payment_online" onchange="window.location.href=this.value;"
             style="border-radius:23px; width:242px;height:40px;text-align:center;margin:1rem 1rem;color:white;background:rgb(54, 54, 194);">
-            <option value="e-sewa">e-sewa</option>
-            <option value="khalti">Khalti</option>
-            <option value="Paypal">Paypal</option>
-         </select> -->
+            <option style="display:none";></option>
+            <option value="https://esewa.com.np/#/home">e-sewa</option>
+            <option value="https://khalti.com/">Khalti</option>
+            <option value="https://www.paypal.com/np/home">Paypal</option>
+         </select><span id=""></span>
          <br><br>
 
          <input type="submit" value="submit" onclick="validate();" class="submit">
