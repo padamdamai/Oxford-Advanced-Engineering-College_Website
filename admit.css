@@ -171,13 +171,14 @@ input:valid + .error_dob::after {
   position:absolute;
   filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }
-/* #error_gpa{
+/* gpa  */
+#error_gpa{
   color: red;
   display: block;
   margin:-1.3rem 20.6rem;
   position:absolute;
   filter: drop-shadow(1px 9px 5px rgb(240, 41, 38))
-} */
+}
 
 /* school type  */
 #error_school{
@@ -220,7 +221,7 @@ input:valid + .error_dob::after {
 #error_payment_online{
   color: red;
   display: block;
-  margin:-1.3rem 28.9rem;
+  margin:-1.4rem 10.9rem;
   position:absolute;
   filter: drop-shadow(1px 9px 5px rgb(240, 41, 38));
 }

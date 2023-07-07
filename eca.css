@@ -2,16 +2,34 @@
 font-size: 37px;
 text-align: center;
 margin-top:5rem;
-transform: translate(0%,114%);
+transform: translate(8%,44%);
 color: white;
 text-shadow: 10px 10px 25px rgb(59, 59, 57),
 -10px 10px 25px rgb(48, 47, 45),
 -10px -10px 25px rgb(29, 28, 28),
 10px -10px 25px rgb(51, 51, 50);
 }
+.video_container{
+  margin-left:5rem;
+  display: flex;
+  flex-direction: row;
+  max-width:23rem;
+}
 .myVideo{
-  margin: -8rem 18rem; 
+  margin: 4rem -21.5rem;
+height: 25rem;
+}
+.baksetball_video{
+  height:13rem;
+  position: relative;
+top: -17.3rem;
+margin-left:35px;
+}
+.volleyball_video{
   height:25rem;
+  position: relative;
+  top: 3.9rem;
+  margin-left: -45rem;
 }
 .sport_college{
   margin: 16rem 7rem  

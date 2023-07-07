@@ -57,20 +57,13 @@
                style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;"
                placeholder="permanent_address" required></label><span id="error_handling_perm_address"></span>
 
-         <label style="margin-left:-1rem;">Date-of-Birth:<input type="date" id="dob"
-               style="width: 148px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="f_name"
-               required pattern="\d{4}-\d{2}-\d{2}"></label><span id="error_dob"></span>
-
-               <!-- <label>
-                  Enter your birthday:
-                  <input type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}" />
-                  <span class="error_dob"></span>
-                </label>
-                <p> -->
+               <label>Date of Birth: <input type="text" size="12" id="dob" required pattern="\d{1,2}/\d{1,2}/\d{4}" 
+                  placeholder="dd/mm/yyyy" name="startdate"   style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 0rem"></label>
+            <span id="error_dob"></span>
 
          <label>Faculty:</label>
          <select name="facultties" id="Faculty_name"
-            style="width:183px;height:40px;text-align:center;margin-left:1rem;background:white;" >
+            style="width:159px;height:40px;text-align:center;margin-left:1rem;background:white;" >
             <option style="display:none;"></option>
             <option value="Civil">Civil</option>
             <option value="Computer">Computer</option>
@@ -101,7 +94,7 @@
 
          <label style="margin-left:-1rem;"> Class ten G.P.A:<input type="email" id="gpa"
                style="width: 171px;height: 33px;text-align:center;margin: 1rem 3rem 1rem 1rem;" placeholder="G.P.A"
-               required></label><span id="error_gpa"></span>
+               required ></label><span id="error_gpa"></span>
 
              
          <label style="margin-left:-1rem;"> School type:</label>
@@ -129,13 +122,13 @@
          <br>
            
          <label style="margin-left:0rem;">Payment:</label>
-         <select name="payment" id="payment_online" onchange="window.location.href=this.value;"
+         <select name="payment" id="payment_online" onchange="window.location.href=this.value;" id="payment_online"
             style="border-radius:23px; width:242px;height:40px;text-align:center;margin:1rem 1rem;color:white;background:rgb(54, 54, 194);">
-            <option style="display:none";></option>
+            <option></option>
             <option value="https://esewa.com.np/#/home">e-sewa</option>
             <option value="https://khalti.com/">Khalti</option>
             <option value="https://www.paypal.com/np/home">Paypal</option>
-         </select><span id=""></span>
+         </select><span id="error_payment_online"></span>
          <br><br>
 
          <input type="submit" value="submit" onclick="validate();" class="submit">
