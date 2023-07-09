@@ -21,8 +21,8 @@
      
       <li><a href="index.html">Home</a></li>
       <div class="dropdown">
-         <li class="dropbtn">About <div class="about-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></div></li>
-         <div class="dropdown-content">
+         <li class="dropbtn">About <div class="about-icon"><i class="fa fa-caret-down" aria-hidden="true" onclick="click_about();"></i></div></li>
+         <div class="dropdown-content" id="drop_down_about">
            <div class="hover-contents">
             <table>
                <tr>
@@ -59,4 +59,16 @@
 
    </ul>
 </div>
+<script>
+   function click_about(){
+     let click = document.getElementById('drop_down_about');
+     if (click.style.display === "none") {
+            click.style.display = "flex";
+        } else {
+            click.style.display = "none";
+        }
+    
+   }
+</script>
 </body>
+</html>

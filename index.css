@@ -74,8 +74,8 @@ left: 41px;
   .dropdown-content a:hover {background-color:rgb(133, 124, 124);  border-radius: 23px;}
   
   .dropdown:hover .dropdown-content {
-  display: block;
-  display: flex;
+  display: none;
+  /* display: flex; */
   flex-direction:row;
   }
   
