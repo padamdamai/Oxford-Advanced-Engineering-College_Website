@@ -170,7 +170,24 @@
            </div>
          </div>
          
-           
+           <!-- popup content -->
+
+ <!--Google Fonts-->
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ <!--Stylesheets-->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="popup">
+     <button id="close">&times;</button>
+     <h2>Welcome to OAEC<br><span style="font-size: 22px;">Oxford Advanced Engineering College</span> </h2>
+     <p>
+         <a href="admit.html" style="text-decoration:none;font-size:20px;border-radius: 12px;border:2px solid black;padding:4px;margin: 75px;">do you want to join the college </a>
+     </p>
+     
+ </div>
+
+
          
          </div> 
          <div id="footer_content"><div id="footer"></div></div>
@@ -199,6 +216,25 @@ crossorigin="anonymous">
 $(function(){
 $("#header").load("header.html"); 
 $("#footer").load("footer.html"); 
+});
+
+
+
+
+// js popup
+
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        800
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
 });
 </script>
       </body>
